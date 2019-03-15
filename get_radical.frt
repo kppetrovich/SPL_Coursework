@@ -44,7 +44,7 @@ then ;
                     rot dup 
                     r> >
                     if
-                        rot closet_biggest_prime
+                        rot closest_biggest_prime
                         rot 0
                     else 
                         1
@@ -52,7 +52,7 @@ then ;
                 else
                     swap dup
                     r> *
-                    >r closet_biggest_prime 
+                    >r closest_biggest_prime 
                     swap 0
                 then
             until
